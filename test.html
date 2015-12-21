@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fo' Shizzle</title>
+
+    <style>
+        #thePhone {
+            background: url("testfiles/phone.jpg") top center no-repeat;
+            width: 536px;
+            height: 900px;
+            margin: 0 auto;
+            /*float: left;*/
+        }
+        
+            #whiteBox {
+                background: #ffffff;
+                width: 337px;
+                height: 491px;
+                margin: 224px 0 0 100px;
+                float: left;
+                animation-duration: 0.5s;
+                animation-delay: 0.0s;            
+            }
+
+                #contentBox {
+                    width: 337px;
+                    height: 491px;
+                    margin: 0 auto;
+                } 
+
+                    #fakeText {
+                        width: 269px;
+                        height: 51px;
+                        margin: 25px auto;
+                        animation-duration: 0.5s;
+                        animation-delay: 0.5s;
+                    }     
+                    #fakePic {
+                        width: 230px;
+                        height: 230px;
+                        margin: 10px auto;
+                        animation-duration: 0.5s;
+                        animation-delay: 0.7s;
+                    }      
+                    #fakeCTA {
+                        width: 108px;
+                        height: 37px;
+                        margin: 20px auto;
+                        animation-duration: 0.5s;
+                        animation-delay: 0.9s;
+                    }              
+                    #fakeBP {
+                        width: 130px;
+                        height: 20px;
+                        margin: 60px auto 0 auto;
+                        animation-duration: 0.5s;
+                        animation-delay: 1.1s;
+                    }         
+                
+    </style>
+    
+    <link rel="stylesheet" type="text/css" href="testfiles/animate.css">
+    
+</head>
+
+<body>
+
+    <div id="thePhone">
+        
+        <div id="whiteBox" class="animated zoomIn">
+            <div id="contentBox" >
+                <div class="animated fadeInDown" id="fakeText"><img src="testfiles/fake_text1.gif"></div>
+                <div class="animated zoomIn" id="fakePic"><img src="testfiles/pic.jpg"></div>
+                <div class="animated fadeInUp" id="fakeCTA"><img src="testfiles/fake_cta.gif"></div>
+                <div class="animated fadeInUp" id="fakeBP"><img src="testfiles/powered.gif"></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
